@@ -1,0 +1,42 @@
+@import "colors";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+nav {
+    width: 100%;
+    padding: 1rem;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    background-color: rgb(237, 228, 228);
+    top: 0%;
+    z-index: 10;
+    border-radius: 20px 20px 0 0;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 40px;    
+        color: rgb(82, 52, 19);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    main {
+        width: 70%;
+        display:  flex;
+        justify-content: flex-end;}
+
+    a {
+        color: $dark;
+        margin: 1rem;
+        padding: 3px;
+        font: 900 1rem $text1;
+        text-decoration: none;
+      
+
+        &:hover {
+            color: $third;
+
+        }
+
+    }
+}
